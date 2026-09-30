@@ -1,0 +1,17 @@
+=== Question 16 ===
+
+a) i) Briefly explain the design problem with the code in BrowserDisplay.java (1 mark)
+
+a ii) What design pattern could you use to refactor the code? (1 mark)
+
+b)
+Code smell/violation identified:
+Where it was found - name of file(s) and method(s):
+1-sentence description of how you rectified it:
+
+Code smell/violation identified:
+Where it was found - name of file(s) and method(s):
+1-sentence description of how you rectified it:
+
+...Repeat the above structure if necessary
+

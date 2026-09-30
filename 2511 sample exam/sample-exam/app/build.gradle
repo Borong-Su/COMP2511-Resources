@@ -1,0 +1,29 @@
+plugins {
+    id 'java-library'
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation files('lib/json-20250517.jar')
+    implementation files('lib/jsonassert-1.5.3.jar')
+    testImplementation files('lib/junit-platform-console-standalone-6.0.1.jar')
+}
+
+tasks.named('test') {
+    useJUnitPlatform()
+}
+
+java {
+    toolchain {
+        languageVersion = JavaLanguageVersion.of(21)
+    }
+}
+
+task compile {
+    description("Checks if main code can compile with test code")
+    group = 'verification'
+    dependsOn 'testClasses'
+}

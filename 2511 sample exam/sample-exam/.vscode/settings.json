@@ -1,0 +1,23 @@
+{
+  "java.configuration.updateBuildConfiguration": "automatic",
+  "[plaintext]": {
+    "editor.wordWrap": "on"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/Thumbs.db": true,
+    "**/bin": true,
+    "**/build": true
+  },
+  "java.import.gradle.version": "9.2.0",
+  "editor.tabSize": 4,
+  "cSpell.language": "en-GB",
+  "editor.detectIndentation": false,
+  "editor.glyphMargin": true,
+  "workbench.editor.showIcons": true,
+  "editor.insertSpaces": true
+}
